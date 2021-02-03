@@ -1,0 +1,42 @@
+{
+  "name": "client-server-communicator",
+  "version": "1.0.0",
+  "description": "Prove Of Concept - Client finds server on the network > Client and server communicate with each other",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon src/server/index.ts",
+    "client": "ts-node src/client/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianwijma/client-server-communicator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianwijma/client-server-communicator/issues"
+  },
+  "homepage": "https://github.com/ianwijma/client-server-communicator#readme",
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.8",
+    "kill-port": "^1.6.1",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.11",
+    "@types/inquirer": "^7.3.1",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/nanoid": "^2.1.0",
+    "@types/node": "^14.14.22",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "get-ip-range": "^3.0.0",
+    "inquirer": "^7.3.3",
+    "ip-cidr": "^2.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "nanoid": "^3.1.20",
+    "node-fetch": "^2.6.1"
+  }
+}

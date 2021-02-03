@@ -1,0 +1,11 @@
+{
+  "watch": ["src/**/*.ts"],
+  "ext": "ts,json",
+  "ignore": ["src/**/*.spec.ts", "src/client/**/*"],
+  "exec": "ts-node",
+  "events": {
+    "start": "kill-port 1337",
+    "restart": "kill-port 1337",
+    "crash": "kill-port 1337"
+  }
+}
