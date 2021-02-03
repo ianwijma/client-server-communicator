@@ -129,5 +129,3 @@ async function bootstrap() {
   console.log(`Successfull setup a secure connection with ${server}`);
 }
 bootstrap();
-
-// TODO: Get network
